@@ -186,7 +186,7 @@ img {
         padding: 2rem 1.5rem 2rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 15);
         border-radius: 1.5rem 1.5rem 0 0;
-        -webkit-transition: .5s;
+        -webkit-transition: -webkit-transform .5s;
     }
 }
 
@@ -293,7 +293,7 @@ img {
 
 .home_scroll-button {
     color: var(--first-color);
-    -webkit-transition: .5s;
+    -webkit-transition: -webkit-transform .5s;
 }
 
 .home_scroll-button {
@@ -332,7 +332,7 @@ img {
 .button_icon {
     font-size: 1.25rem;
     margin-left: var(--mb-0-5);
-    -webkit-transition: .5s;
+    -webkit-transition: -webkit-transform .5s;
 }
 
 .button--flex {
@@ -568,7 +568,7 @@ img {
     padding: 0 .3rem;
     border-radius: .4rem;
     z-index: var(--z-tooltip);
-    -webkit-transition: .4s;
+    -webkit-transition: -webkit-transform .4s;
 }
 
 .scrollup:hover {
